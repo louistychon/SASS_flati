@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -26,31 +30,88 @@
     <main>
         <section id="background"></section>
         <section id="greytext">
-            <p>I think most programmers spend the first 5 years of their career mastering complexity and the rest of
-                their lives learning simplicity -</p>
-            <p>Buzz Anderson</p>
+            <div class="greytext_content">
+                <p>I think most <span>programmers</span> spend the first 5 years of their career mastering
+                    <span>complexity</span> and the rest of
+                    their lives learning <span>simplicity</span> -</p>
+                <p>Buzz Anderson</p>
+            </div>
         </section>
+        <div class="content-global-grids">
         <section id="cards">
             <div class="grid">
-                <div class="card"><h4>design</h4>
-                <p>build for & by nerds</p></div>
-                <div class="card"><h4>code</h4>
-                    <p>build for & by nerds</p></div>
-                <div class="card"><h4>create</h4>
-                    <p>build for & by nerds</p></div>
-                <div class="card"><h4>support</h4>
-                    <p>build for & by nerds</p></div>
+                <div class="card">
+                    <div class="icon"><i class="fa-solid fa-pen"></i></div>
+                    <h4>design</h4>
+                    <p class="grid-card-p-blue">build for & by nerds</p>
+                    <p class="para card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero pariatur
+                        officia repellendus inventore facilis error?</p>
+                </div>
+                <div class="card">
+                    <div class="icon"><i class="fa-solid fa-umbrella"></i></div>
+                    <h4>code</h4>
+                    <p class="grid-card-p-blue">build for & by nerds</p>
+                    <p class="para card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero pariatur
+                        officia repellendus inventore facilis error?</p>
+                </div>
+                <div class="card">
+                    <div class="icon"><i class="fa-solid fa-flask"></i></div>
+                    <h4>create</h4>
+                    <p class="grid-card-p-blue">build for & by nerds</p>
+                    <p class="para card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero pariatur
+                        officia repellendus inventore facilis error?</p>
+                </div>
+                <div class="card">
+                    <div class="icon"><i class="fa-solid fa-book"></i></div>
+                    <h4>support</h4>
+                    <p class="grid-card-p-blue">build for & by nerds</p>
+                    <p class="para card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero pariatur
+                        officia repellendus inventore facilis error?</p>
+                </div>
             </div>
         </section>
         <section id="cards-black">
+            <div class="cards-black-left">
+                <h3 class="recent-work">Recent Work</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, voluptatum!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore esse pariatur corporis quibusdam
+                    omnis tempore veniam quas. Sunt, eveniet sit!</p>
+                <button>view portfolio</button>
+            </div>
             <div class="grid-black">
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
+                <div class="card"><img src="img/flati-design-screenshot1.png" alt="">
+                    <h3>CATALOGUE</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, obcaecati?</p>
+                </div>
+                <div class="card"><img src="img/flati-design-screenshot2.png" alt="">
+                    <h3>LOUPE</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, obcaecati?</p>
+                </div>
+                <div class="card"><img src="img/flati-design-screenshot3.png" alt="">
+                    <h3>RETRO ROCKET</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, obcaecati?</p>
+                </div>
             </div>
         </section>
+    </div>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="bleu">
+            <h3 class="title-footer">GET IN TOUCH</h3>
+            <p>We're social and we'd love to hear from you! Feel free to send us an email, find us on Google Plus,
+                follow us on Twitter and join <br> us on Facebook.</p>
+            <div class="social">
+                <ul>
+                    <li><i class="fa-brands fa-twitter fa-xl"></i></li>
+                    <li><i class="fa-brands fa-facebook-f fa-xl"></i></li>
+                    <li><i class="fa-brands fa-linkedin-in fa-xl"></i></li>
+                    <li><i class="fa-brands fa-google-plus-g fa-xl"></i></li>
+                    <li><i class="fa-brands fa-google-plus-g fa-xl"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">FLATI © 2018 - All Rights Reserved : Template by Spiral Pixel </div>
+    </footer>
 </body>
 
 </html>

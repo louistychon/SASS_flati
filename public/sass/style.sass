@@ -1,0 +1,143 @@
+@import ./_var
+@import ./_fonts
+@import ./_media
+
+
+body
+    margin: 0
+    padding: 0
+    font-family: "Cabin"
+    nav
+        background-color: $darkgrey
+        display: flex
+        align-items: center
+        .logo
+            color: white
+            width: 50%
+            text-align: center
+        ul
+            display: flex
+            align-content: center
+            justify-content: flex-end
+            list-style-type: none
+            color: white
+            text-decoration: none
+            li
+                margin-right: 30px
+                color: $grey-text
+                
+    #background
+        background-image: url('../img/bg-header.png')
+        height: 500px
+        width: 100%
+    #greytext
+        width:100%
+        height:200px
+        background-color: $beige
+        text-align: center
+        margin-top: 0
+        .greytext_content
+            width:80%
+            margin: auto
+            color: $grey-text
+            display: flex
+            justify-content: center
+            flex-direction: column
+            padding-top: 3%
+            font-size: 1.5em
+        p
+            margin-block-start: 0
+            span:nth-child(1)
+                background-color: $lightblue
+                color: white
+            span:nth-child(2)
+                color: $lightblue
+                font-weight: bold
+            span:nth-child(3)
+                font-weight: 900
+    .content-global-grids
+        width: 90%
+        margin: auto
+        #cards
+            .grid
+                display: flex
+                justify-content: space-around
+                align-items: center
+                text-align: center
+                margin: auto
+                gap: 5%
+                .card
+                    background-color: $darkbeige
+                    padding: 10px
+                    margin-top: 4%
+                    border-radius: 5px
+                    h4
+                        text-transform: uppercase
+                        line-height: 0
+                    .grid-card-p-blue
+                        color: $lightblue
+                        margin-block-start: 0
+                    .icon
+                        background-color: white
+                        border-radius: 50%
+                        width:50px
+                        height:50px
+                        margin: auto
+                        color: $blue
+                        i
+                            padding-top: 15px
+        #cards-black
+            display: flex
+            justify-content: space-evenly
+            margin-top: 5%
+            margin-bottom: 5%
+            .cards-black-left
+                width: 40% 
+                padding-right: 70px
+                button
+                    padding: 15px
+                    background-color: $lightblue
+                    border-radius: 5px
+                    color: white
+                    border: none
+            .grid-black
+                width: 100%
+                display: flex
+                gap:3px
+                background-color: white
+                .card
+                    background-color: $darkcards
+                    color: white
+                    text-align: center
+                    border-radius: 5px
+                    img
+                        width: 100%
+                    p
+                        padding-left: 5px
+                        padding-right: 5px
+                        color: $grey-text
+footer
+    background-color: $blue
+    color: $grey-text
+    width: 100%
+    text-align: center
+    display: flex
+    justify-content: center
+    flex-direction: column
+    p
+        margin-left: 5%
+        margin-right: 5%
+    ul
+        display: flex
+        list-style-type: none
+        text-align: center
+        justify-content: center
+        li
+            margin-right: 15px
+    .copyright
+        background-color: #363b47
+        height: 40px
+        padding-top:20px
+
+   
+
